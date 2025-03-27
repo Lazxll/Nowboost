@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <meta>
+        <name>Disable FG Boost Decay</name>
+        <desc>Improves foreground process performance</desc>
+    </meta>
+    <item type="regedit">
+        <path>HKLM\SYSTEM\CurrentControlSet\Control\KernelVelocity</path>
+        <name>DisableFGBoostDecay</name>
+        <type>REG_DWORD</type>
+        <value>1</value>
+        <default>0</default>
+    </item>
+</config>
